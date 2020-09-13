@@ -10,7 +10,6 @@ class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.black87,
       body: Column(
         children: [
           // SizedBox(height: 50,width: 10,),

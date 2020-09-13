@@ -7,66 +7,16 @@ class Events extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.black87,
       body: Column(
-      children: [
-        AppBarHeader(),
-        TextConst(text: "كلية التربية النوعية",),
-        Expanded(
-                  child: ListView(
-            scrollDirection: Axis.horizontal,
+        children: [
+          Expanded(
+                      child: GridView.count(crossAxisCount: 10,
             children: [
-              CustomCard(),
-              CustomCard(),
-              CustomCard(),
-              CustomCard(),
-              CustomCard(),
-              CustomCard(),
-              CustomCard(),
-              CustomCard(),
-              CustomCard(),
-              CustomCard(),
+              CustomCard(),   
             ],
+            ),
           ),
-          
-        ),Expanded(
-                  child: ListView(
-            scrollDirection: Axis.horizontal,
-            children: [
-              CustomCard(),
-              CustomCard(),
-              CustomCard(),
-              CustomCard(),
-              CustomCard(),
-              CustomCard(),
-              CustomCard(),
-              CustomCard(),
-              CustomCard(),
-              CustomCard(),
-            ],
-          ),
-          
-        ),Expanded(
-                  child: ListView(
-            scrollDirection: Axis.horizontal,
-            children: [
-              CustomCard(),
-              CustomCard(),
-              CustomCard(),
-              CustomCard(),
-              CustomCard(),
-              CustomCard(),
-              CustomCard(),
-              CustomCard(),
-              CustomCard(),
-              CustomCard(),
-            ],
-          ),
-          
-        ),
-      ],
-      ),
-
-    );
+        ],
+      ));
   }
 }

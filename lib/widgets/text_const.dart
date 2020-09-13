@@ -9,7 +9,7 @@ class TextConst extends StatelessWidget {
     return SelectableText(
       text,
       style: TextStyle(
-        color: Colors.white,
+        //  color: Colors.white,
         fontSize: 20,
         fontWeight: FontWeight.bold,
       ),

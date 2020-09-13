@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 
 class CustomCard extends StatelessWidget {
+  final String image;
+
+  const CustomCard({Key key, this.image}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return Card(
@@ -9,7 +12,7 @@ class CustomCard extends StatelessWidget {
                     borderRadius: BorderRadiusDirectional.circular(20)),
                 clipBehavior: Clip.antiAlias,
                 child: Image.asset(
-                  "assets/images/3.png",height: 300,
+                  image,height: 300,
                   width: 200,
                 ),
               );
