@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:protofilo_web/views/splash/view.dart';
 
-import 'views/home_page/view.dart';
 
 void main() {
   runApp(MyApp());
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       
       debugShowCheckedModeBanner: false,
       title: 'Ahmed Elmwafy',
-      home: MyHomePage(),
+      home: SplashScreen(),
     );
   }
 }

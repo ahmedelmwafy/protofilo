@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:protofilo_web/views/events/view.dart';
-import 'package:protofilo_web/views/home_page/header_image.dart';
+import 'package:protofilo_web/widgets/header_image.dart';
 import 'package:protofilo_web/views/home_page/link_text.dart';
 import 'package:protofilo_web/views/home_page/view.dart';
 import 'package:protofilo_web/views/work/view.dart';
@@ -9,7 +9,7 @@ class AppBarHeader extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-            color: Colors.blue,
+            color: Color(0xFF2b2d42),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [

@@ -10,7 +10,7 @@ class DartText extends StatelessWidget {
       text,
       textDirection: TextDirection.rtl,
       style: TextStyle(
-        color: Colors.white,
+        // color: Colors.white,
         fontSize: 20,
         fontWeight: FontWeight.bold,
       ),
